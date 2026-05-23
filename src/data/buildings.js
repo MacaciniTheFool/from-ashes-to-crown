@@ -1,0 +1,20 @@
+export const BUILDINGS_DEF = [
+  { id: 'old_manor', n: 'Old Manor', ic: '🏚️', built: true, rg: 0, rw: 0, rs: 0, rp: 0, eff: 'Your home base' },
+  { id: 'small_farm', n: 'Small Farm', ic: '🌾', built: true, rg: 0, rw: 0, rs: 0, rp: 0, eff: '+5 food/day' },
+  { id: 'woodcutter', n: 'Woodcutter Camp', ic: '🪵', built: false, rg: 30, rw: 0, rs: 0, rp: 5, eff: '+15 wood/day' },
+  { id: 'granary', n: 'Granary', ic: '🏪', built: false, rg: 80, rw: 20, rs: 0, rp: 5, eff: 'Stop food waste' },
+  { id: 'well', n: 'Stone Well', ic: '⛏️', built: false, rg: 60, rw: 0, rs: 10, rp: 5, eff: '+Serf health' },
+  { id: 'barracks', n: 'Barracks', ic: '⚔️', built: false, rg: 150, rw: 40, rs: 0, rp: 15, eff: 'Train soldiers' },
+  { id: 'market', n: 'Market Stall', ic: '🛒', built: false, rg: 120, rw: 30, rs: 0, rp: 10, eff: '+Gold income' },
+  { id: 'quarry', n: 'Stone Quarry', ic: '🪨', built: false, rg: 100, rw: 20, rs: 0, rp: 10, eff: '+15 stone/day' },
+  { id: 'tavern', n: 'Tavern', ic: '🍺', built: false, rg: 200, rw: 60, rs: 20, rp: 15, eff: '+Rep, unlocks NPCs' },
+  { id: 'smithy', n: 'Smithy', ic: '🔨', built: false, rg: 300, rw: 50, rs: 40, rp: 20, eff: '+Combat +Production' },
+  { id: 'watchtower', n: 'Watch Tower', ic: '🗼', built: false, rg: 200, rw: 80, rs: 60, rp: 20, eff: '+Defense' },
+  { id: 'chapel', n: 'Chapel', ic: '⛪', built: false, rg: 400, rw: 0, rs: 80, rp: 30, eff: '+Rep, Church ally' },
+  { id: 'library', n: 'Library', ic: '📚', built: false, rg: 500, rw: 40, rs: 60, rp: 30, eff: '+SP/day' },
+  { id: 'manor_house', n: 'Manor House', ic: '🏰', built: false, rg: 1000, rw: 200, rs: 300, rp: 50, eff: '+Rep, title req' },
+  { id: 'hospital', n: 'Healing House', ic: '🏥', built: false, rg: 800, rw: 100, rs: 150, rp: 40, eff: 'Prevent NPC death' },
+  { id: 'port', n: 'River Dock', ic: '⚓', built: false, rg: 2000, rw: 300, rs: 200, rp: 60, eff: 'Trade routes' },
+  { id: 'walls', n: 'Stone Walls', ic: '🧱', built: false, rg: 3000, rw: 200, rs: 500, rp: 80, eff: 'Major defense' },
+  { id: 'castle', n: 'Castle Keep', ic: '🏯', built: false, rg: 20000, rw: 1000, rs: 2000, rp: 200, eff: 'Max title req' }
+];
